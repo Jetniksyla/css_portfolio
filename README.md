@@ -57,5 +57,10 @@ For inquiries or collaboration opportunities, please feel free to reach out to *
 
 * #### **GitHub Profile:** Jetnik Syla
 
+##
+                                     © 2023 Jetnik Syla - All Rights Reserved
 
-                                      © 2023 Jetnik Syla - All Rights Reserved
+
+## Project Screenshot
+
+![Alt text](assets/My_portfolio_screenshot.html.png)
