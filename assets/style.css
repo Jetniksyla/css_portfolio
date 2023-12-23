@@ -186,7 +186,7 @@ footer {
 /* Photo Styles */
 .photo,
 .photo1 {
-  width: 50%;
+  width: 55%;
   border-radius: 15px;
   margin: auto;
   box-shadow: 15px 5px 20px 11px rgba(2, 2, 2, 50%);
@@ -228,6 +228,10 @@ a:focus {
   }
 
   /* Styles for the 'aboutMe' and 'bold' classes */
+  .aboutMe{
+    width: 100%;
+  }
+
   .aboutMe,
   .bold {
     display: flex;
@@ -236,15 +240,18 @@ a:focus {
     align-items: center;
   }
 
+
   /* Styles for the 'photo-row' class */
   .photo-row {
     flex-direction: column;
     align-items: center;
+    margin: auto;
   }
 
   /* Styles for paragraphs within the 'myWorkSection' class */
   .myWorkSection p {
-    width: 65%;
+    width: 100%;
+    padding: 20px;
   }
 
   /* Styles for the 'photo' and 'photo1' classes */
