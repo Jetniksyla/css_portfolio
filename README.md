@@ -63,4 +63,4 @@ For inquiries or collaboration opportunities, please feel free to reach out to *
 
 ## Project Screenshot
 
-![Alt text](assets/My_portfolio_screenshot.html.png)
+![/Users/jetniksyla/Desktop/My-PROJECTS/my_portfolio/assets/My_portfolio_screenshot.html.png](assets/My_portfolio_screenshot.html.png)
