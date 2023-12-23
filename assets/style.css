@@ -179,7 +179,7 @@ footer {
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
-  padding: 20px;
+  padding: 20px 0 ;
   margin: 20px;
 }
 
@@ -229,7 +229,7 @@ a:focus {
 
   /* Styles for the 'aboutMe' and 'bold' classes */
   .aboutMe{
-    width: 100%;
+    width: 90%;
   }
 
   .aboutMe,
@@ -251,7 +251,7 @@ a:focus {
   /* Styles for paragraphs within the 'myWorkSection' class */
   .myWorkSection p {
     width: 100%;
-    padding: 20px;
+    padding: 40px;
   }
 
   /* Styles for the 'photo' and 'photo1' classes */
