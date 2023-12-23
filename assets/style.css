@@ -42,7 +42,7 @@ header {
 
 /* Portfolio Title Styles */
 .portfolio {
-  font-size: 30px;
+  font-size: 35px;
   font-family: fantasy;
   text-align: center;
   padding-top: 30px;
@@ -63,7 +63,7 @@ main {
 /* #name Style */
 #name {
   font-family: inherit;
-  font-size: 21px;
+  font-size: 27px;
   transform: scale(1.0);
 }
 
@@ -80,7 +80,7 @@ h2 {
   display: block;
   text-align: center;
   padding: 20px;
-  font-size: 30px;
+  font-size: 50px;
   font-family: fantasy;
 }
 
@@ -105,7 +105,7 @@ h2 {
   display: flex;
   justify-content: center;
   text-align: center;
-  font-size: 20px;
+  font-size: 24px;
   font-family: fantasy;
   letter-spacing: 5px;
   text-shadow: 8px 7px 12px rgba(0, 0, 0, 0.3);
@@ -217,56 +217,46 @@ a:focus {
     /* Add padding to the header */
   }
 
+  /* Styles for the main container */
   .contenier {
     flex-direction: column;
-    /* Arrange items in a column on smaller screens */
     align-items: center;
-    /* Center align items vertically */
     text-align: center;
-    /* Center align text within the container */
     padding: 20px;
-    /* Add padding to the container */
   }
 
+  /* Styles for the 'aboutMe' and 'bold' classes */
   .aboutMe,
   .bold {
     display: flex;
-    /* Use flex display for layout */
     text-align: center;
-    /* Center align text within the aboutMe and bold classes */
     justify-content: center;
-    /* Center align content horizontally */
     align-items: center;
-    /* Center align items vertically */
   }
 
+  /* Styles for the 'photo-row' class */
   .photo-row {
     flex-direction: column;
-    /* Arrange items in a column on smaller screens */
     align-items: center;
-    /* Center align items vertically */
   }
 
+  /* Styles for paragraphs within the 'myWorkSection' class */
   .myWorkSection p {
     width: 65%;
-    /* Set the width of the paragraph container on smaller screens */
   }
 
+  /* Styles for the 'photo' and 'photo1' classes */
   .photo,
   .photo1 {
     width: 80%;
-    /* Set the width of the photos on smaller screens */
     margin-bottom: 20px;
-    /* Add margin space at the bottom of the photos */
   }
 }
 
 /* Style for footer links */
 .footer-link {
   position: relative;
-  /* Set position to relative for positioning pseudo-element */
   text-decoration: none;
-  /* Remove default underline from links */
   color: #151615;
   /* Set the color of the link text */
 }
@@ -274,33 +264,21 @@ a:focus {
 /* Style for the tooltip pseudo-element */
 .footer-link::after {
   content: attr(data-tooltip);
-  /* Set the content of the pseudo-element to the data-tooltip attribute value */
   position: absolute;
-  /* Position the pseudo-element absolutely */
   background: #333;
-  /* Set the background color of the tooltip */
   color: #fff;
-  /* Set the text color of the tooltip */
   padding: 5px 25px;
-  /* Add padding to the tooltip */
   border-radius: 5px;
-  /* Apply border-radius for rounded corners */
   bottom: 100%;
-  /* Position the tooltip above the link */
   left: 50%;
-  /* Center the tooltip horizontally */
   transform: translateX(-50%);
-  /* Adjust horizontal position after centering */
   white-space: nowrap;
-  /* Prevent text wrapping in the tooltip */
   opacity: 0;
   /* Set initial opacity to 0 (invisible) */
   transition: opacity 0.3s ease-in-out;
   /* Add a smooth transition for opacity changes */
   pointer-events: pointer;
-  /* Enable pointer events on the tooltip to make it interactive */
   background-color: #234242;
-  /* Set an additional background color for the tooltip */
 }
 
 /* Show the tooltip when hovering over the link */
@@ -314,7 +292,7 @@ a:focus {
 /* Set overflow to clip to indicate that no scrollbars should be shown if content overflows */
 img {
   overflow-clip-margin: content-box;
-  overflow: clip;
+  /* overflow: clip; */
 
   /* Apply a smooth transition effect on the transform property over 0.3 seconds with ease timing function */
   transition: transform 0.3s ease;
