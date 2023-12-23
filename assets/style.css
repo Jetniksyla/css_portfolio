@@ -257,7 +257,7 @@ a:focus {
   /* Styles for the 'photo' and 'photo1' classes */
   .photo,
   .photo1 {
-    width: 80%;
+    width: 90%;
     margin-bottom: 20px;
   }
 }
