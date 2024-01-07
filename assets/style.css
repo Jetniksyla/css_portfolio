@@ -179,7 +179,7 @@ footer {
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
-  padding: 20px 0 ;
+  padding: 20px 0;
   margin: 20px;
 }
 
@@ -191,9 +191,11 @@ footer {
   margin: auto;
   box-shadow: 15px 5px 20px 11px rgba(2, 2, 2, 50%);
 }
-.photo1{
+
+.photo1 {
   width: 45%;
 }
+
 /* Photo Links Styles */
 .photo-links {
   /* Make the photo links part of the document outline */
@@ -228,7 +230,7 @@ a:focus {
   }
 
   /* Styles for the 'aboutMe' and 'bold' classes */
-  .aboutMe{
+  .aboutMe {
     width: 90%;
   }
 
@@ -260,7 +262,10 @@ a:focus {
     width: 90%;
     margin-bottom: 20px;
   }
+
 }
+
+
 
 /* Style for footer links */
 .footer-link {

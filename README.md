@@ -60,6 +60,10 @@ For inquiries or collaboration opportunities, please feel free to reach out to *
 ##
                                      © 2023 Jetnik Syla - All Rights Reserved
 
+### Portfolio Website
+
+Explore my CSS portfolio website [here](https://jetniksyla.github.io/css_portfolio/). Showcase of my web development projects and skills.
+
 
 ## Project Screenshot
 
